@@ -1,0 +1,43 @@
+1) What is Emmet?
+Ans:-Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, email designers type less, 
+     saving both keystrokes and time when building a campaign. 
+2) Difference between a Library and Framework?
+   
+                Library                                                                Framework
+   1) Library is size is small compare to framework.                  1)Framework is big size compare to library.
+   2)lots of things we need to import.                                2) In framework we don't need to import because in framework all things are inbuild.
+   3)It is a collection of helper modules,classes,objects,functions.  3)It comprises of lot of APIs ,compilers,support programs,libraries etc
+   4)A library is easy to be replaced with another library.           4)It is difficult to replace frameworks.
+   5)Its example are JQuery , React JS , etc.                         5)Its example are AngularJS,Spring,NodeJS,etc.
+
+3) What is CDN? Why do we use it?
+Ans:- CDN is stand for content dilivery network.A CDN is essentially a group of servers that are strategically placed 
+      across the globe with the purpose of accelerating the delivery of web content.
+                                    It is use because short for content delivery network, is helpful, as it can make thousands of packages available in your application within a second.
+      You can think of CDN links as an excellent way to quickly set up a JavaScript environment with top-level React API.
+
+4)Why is React known as React?
+Ans:- we know react because react is very fast javascript library compare to another library or franework. using react we we can create wen and mobile based application.
+      react support lots of library so we can customizes as per client requirements.it is so fast because it is based on functional based approach.
+      Main buity of react is code reusebilities. we don't need to write code again and again for same funcanalities.
+
+5)What is crossorigin in script tag?
+Ans:-The crossorigin attribute is a CORS settings attribute. It controls, for scripts that are obtained from other origins, whether error information will be exposed. 
+     This is how we have successfully used crossorigin attribute it in a script tag
+
+6)What is diference between React and ReactDOM
+Ans:-The ReactDOM module exposes DOM-specific methods, while React has the core tools intended to be shared by React on
+      different platforms (e.g. React Native). React: React is a javascript library, designed for building
+      better user interfaces. React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM
+
+7)What is difference between react.development.js and react.production.js files via CDN?
+Ans:-react.development.js is in readable format code to easily readable for developers. while in react.production.js
+     is in minified version and size of file is very less.
+
+8)What is async and defer?
+Ans:-Both async and defer are boolean attributes. Their usage is similar: if you specify both, async takes precedence on modern browsers, 
+     while older browsers that support defer but not async will fallback to defer.
+
+
+
+
