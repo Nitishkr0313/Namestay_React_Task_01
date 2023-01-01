@@ -1,0 +1,58 @@
+01)What is `NPM`?
+Ans>npm stands for Node Package Manager. It’s a library and registry for JavaScript software packages.
+    npm also has command-line tools to help you install the different packages and manage their dependencies.using npm we can install lots of dependency.
+
+02)What is `Parcel/Webpack`? Why do we need it?
+Ans>Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify,
+   clean, and make your code compact so that it becomes easier to send a request or receive the response from the server when it usually takes you to transfer multiple files without using
+    any bundler for loading the page of your application.
+
+03)What is `.parcel-cache`?
+Ans>The.cache folder (or.parcel-cache in parcel v2) stores information about your project when parcel builds it, so that when it rebuilds,
+   it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason why parcel can be so fast in development mode.
+
+04) What is `npx` ?
+Ans>The npx stands for Node Package Execute and it comes with the npm, when you installed npm above 5.2.0 version then automatically npx will be installed.
+    By default, it first checks if the package that is to be executed exists in the path. If it does, it executes it. 
+    Else, means that the package has not been installed, so npx installs its latest version and then executes it.
+
+05)What is difference between `dependencies` vs `devDependencies`?
+Ans>The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime. 
+    To save a dependency as a devDependency on installation we need to do an npm install --save-dev, instead of just an npm install --save.
+
+06)What is Tree Shaking?
+Ans>When Javascript applications get to a certain size, it’s helpful to separate the code into modules. However, when we do so, we can end up with code imported that isn’t actually used. 
+   Tree shaking is a method of optimising our code bundles by eliminating any code from the final file that isn’t actually being used.
+
+07)What is Hot Module Replacement?
+Ans)Hot Module Replacement (or HMR) is one of the most useful features offered by webpack. It allows all kinds of modules to be updated at runtime without the need for a full refresh.
+    This page focuses on implementation while the concepts page gives more details on how it works and why it's useful.
+
+08)List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+Ans> Parcel gives server port bydefault 3000. Parcel tell why error is comming with folder name,parcel is cleaning our code.After saving the file automatically reload the project.
+
+09)What is `.gitignore`? What should we add and not add into it?
+Ans>gitignore is an auto-generated file inside the project folder that ignores/prevents files to get committed to the local and remote repositories.
+
+10)What is the difference between `package.json` and `package-lock.json?
+Ans>                         package.json	                                                           package-lock.json
+       The package.json file has the metadata of the project.	                         The package-lock.json file stores the exact version of dependencies.
+       The project's basic information, such as package name,                         
+       version, description, author, dependencies, etc., are present in package.json.	 Dependencies and their locked versions are there in the package-lock.json file.
+       The npm init command generates the package.json file.	                         The package-lock.json file is generated when you install a package to your project.
+
+11) Why should I not modify `package-lock.json`?
+Ans>Make sure you don’t change package-lock.json directly. That’s being handled automatically by NPM. It reflects changes made to package.json to package-lock.json and keeps it up to date.
+
+12)What is `node_modules` ? Is it a good idea to push that on git?
+Ans>The node_modules directory is one of the crucial parts of any node or React project, but it shouldn't be tracked by the version control system (git) due to its large size. 
+    The right approach is to track the package.json file, and use the npm tool to regenerate node_modules.
+
+13)What is the `dist` folder?
+Ans>The dist folder, short for distribution folder. It is dynamically generated when using the nuxt generate command and includes the generated 
+    production ready HTML files and assets that are necessary to deploy and run your statically generated Nuxt.
+
+14)What is `browserlists?
+Ans>What is Browserslist? Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. 
+   It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them
+
